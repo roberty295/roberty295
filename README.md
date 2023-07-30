@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import sqlite3
 import hashlib
 
-app = Flask(__name__)
+app = Flask(__wpion__)
 app.secret_key = "segredo"
 
 # Configuração do banco de dados
