@@ -129,4 +129,3 @@ Explicação:
 - Para marcar uma tarefa como concluída, a função `complete_task()` é chamada quando a rota `/complete_task/<int:task_id>` é acessada. O ID da tarefa é passado como parâmetro e a coluna `completed` da tabela `tasks` é atualizada para 1.
 - Para excluir uma tarefa, a função `delete_task()` é chamada quando a rota `/delete_task/<int:task_id>` é acessada. O ID da tarefa é passado como parâmetro e a tarefa é removida da tabela `tasks`.
 
-Esse projeto é apenas um exemplo de um aplicativo de lista de tarefas básico. Você pode expandir o projeto adicionando mais funcionalidades, como edição de tarefas, priorização, categorização, etc.
